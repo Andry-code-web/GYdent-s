@@ -10,6 +10,7 @@ menu.onclick = () =>{
 window.onscroll = () =>{
     menu.classList.remove('icon-cross');
     navbar.classList.remove('active');
+    
 
     if (window.scrollY > 0) {
         header.classList.add('active');
